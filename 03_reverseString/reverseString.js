@@ -4,6 +4,8 @@ const reverseString = function(string) {
         revstring+=string[i];
     }
     return revstring;
+
+    //return string.split('').reverse().join('');
 };
 
 // reverseString('')

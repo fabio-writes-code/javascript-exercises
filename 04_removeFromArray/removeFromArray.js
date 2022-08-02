@@ -8,6 +8,12 @@ const removeFromArray = function(initArray,...delArray) {
         }
     }
     return initArray;
+
+    // var removeFromArray = function(...args) {
+    //   const array = args[0]
+    //   return array.filter(val => !args.includes(val))
+    // }
+    //
 };
 
 // Do not edit below this line
